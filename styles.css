@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+div {
+    /*box-shadow: 0 0 0 1px black inset;*/
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+}
+
+button > p {
+    margin: auto;
+}
+
+.top-header {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: #EFEFEF;
+}
+
+.top-header-item {
+    font: 400 14px 'Roboto', sans-serif;
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.header {
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header * {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left-header {
+    float: left;
+}
+
+.logo-image {
+    margin-right: 20px;
+}
+
+.right-header {
+    float: right;
+}
+
+.call-button {
+    font: 400 14px 'Roboto', sans-serif;
+    width: 170px;
+    height: 40px;
+    margin-left: 40px;
+    background: #FFFFFF;
+    border: 2px solid #66C05D;
+    border-radius: 40px;
+}
+
+.telephone-text {
+    font: 400 16px 'Roboto', sans-serif;
+}
+
+.line {
+    border: 1px solid #EFEFEF;
+}
+
+.navigation-bar {
+    height: 79px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-item {
+    font: 400 16px 'Roboto', sans-serif;
+    color: black;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.container {
+    max-width: 1110px;
+    margin: auto;
+    height: inherit;
+}
+
+.outside-container {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
+.showcase-product {
+    height: 604px;
+    margin-bottom: 80px;
+    background: url("images/showcase-background.png");
+}
+
+.title-showcase {
+    font: 700 48px 'Roboto', sans-serif;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+.info-showcase {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.description-showcase {
+    font: 400 14px 'Roboto', sans-serif;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+.more-button-showcase {
+    width: 170px;
+    height: 40px;
+    background: #66C05D;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+}
+
+.more-button-showcase > p {
+    color: white;
+}
+
+.main-page {
+    background: #EFEFEF;
+    padding-bottom: 133px;
+}
+
+.products-block {
+    margin-bottom: 100px;
+}
+
+.special-text {
+    font: 700 24px 'Roboto', sans-serif;
+    margin-bottom: 38px;
+}
+
+.row-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-product {
+    width: 255px;
+    height: 363px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: white;
+}
+
+.image-product {
+    width: 125px;
+    height: 166px;
+    margin-bottom: 20px;
+}
+
+.product-name {
+    font: 400 14px 'Roboto', sans-serif;
+    margin-bottom: 20px;
+}
+
+.product-price {
+    font: 500 21px 'Roboto', sans-serif;
+    letter-spacing: 0.05em;
+    margin-bottom: 12px;
+}
+
+.buy-button {
+    width: 130px;
+    height: 35px;
+    background: #66C05D;
+    border: none;
+    border-radius: 30px;
+}
+
+.buy-button > p {
+    font: 400 14px 'Roboto', sans-serif;
+    color: white;
+    letter-spacing: 0.05em;
+}
+
+.info-card {
+    width: 540px;
+    height: 212px;
+    background: #66C05D;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 35px 45px 35px 40px;
+}
+
+.title-info-card {
+    font: 700 18px 'Roboto', sans-serif;
+    color: white;
+    margin-bottom: 19px;
+}
+
+.description-info-card {
+    font: 400 14px 'Roboto', sans-serif;
+    color: white;
+    margin-bottom: 25px;
+    line-height: 20px;
+}
+
+.part-info-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.part-info-card > input {
+    width: 225px;
+    height: 35px;
+    background: white;
+    border: none;
+    border-radius: 30px;
+    padding: 9px 23px;
+    font: 400 14px 'Roboto', sans-serif;
+}
+
+.part-info-card > button {
+    width: 170px;
+    height: 35px;
+    background: #66C05D;
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+    font: 400 14px 'Roboto', sans-serif;
+    color: white;
+}
+
+.info-footer {
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-footer > .part-info-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.communications > a {
+    width: 45px;
+    height: 45px;
+    margin-right: 16px;
+    display: inline-block;
+}
+
+.bottom-telephone-text {
+    margin-left: 105px;
+}
+
+.address-text {
+    font: 400 14px 'Roboto', sans-serif;
+}
+
+.useless-footer {
+    background: #EFEFEF;
+}
+
+.useless-footer > .container {
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font: 400 12px 'Roboto', sans-serif;
+}
+
+.useless-footer > .container > p,
+.useless-footer > .container > a {
+    color: #828282;
+    text-decoration: none;
+}
